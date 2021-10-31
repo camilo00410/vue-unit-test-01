@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <Indecision/>
+
+  <!-- <Counter title="Entraron" :start="105 + 5"/>
+
+  <Counter title="Salieron" /> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Counter from '@/components/Counter'
+import Indecision from './components/Indecision.vue'
+
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    // Counter,
+    Indecision
   }
 }
 </script>
@@ -24,3 +31,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+ 
